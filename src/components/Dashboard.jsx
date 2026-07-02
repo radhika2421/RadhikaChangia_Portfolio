@@ -40,12 +40,6 @@ export default function Dashboard({ profile,theme }) {
                   <h1 className={`text-2xl md:text-3xl font-sans font-bold tracking-tight ${textPrimary}`}>
                     {profile.name}
                   </h1>
-                  <motion.div
-                    animate={{ rotate: [0, 15, 0, -15, 0] }}
-                    transition={{ repeat: Infinity, duration: 2.5, repeatDelay: 1 }}
-                  >
-                    <Sparkles className="w-5 h-5 text-amber-400 fill-amber-400" />
-                  </motion.div>
                 </div>
                 <p className={`text-base md:text-lg font-medium mt-1 ${theme === 'light' ? 'text-indigo-600' : 'text-purple-400'}`}>
                   {profile.role}
