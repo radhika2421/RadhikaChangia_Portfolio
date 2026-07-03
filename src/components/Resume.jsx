@@ -15,14 +15,14 @@ export default function Resume({ theme }) {
           <h2 className={`text-xl font-bold ${textPrimary}`}>Resume</h2>
           <p className={`text-xs ${textSecondary}`}>View or download my latest resume</p>
         </div>
-        {/* <div className="flex gap-2">
+        <div className="flex gap-2">
           <a href={resumeUrl} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-4 py-2.5 rounded-xl border border-indigo-100 dark:border-purple-900/40 text-indigo-600 dark:text-purple-300 text-xs font-bold hover:bg-indigo-50 dark:hover:bg-purple-950/30 transition-colors">
             <ExternalLink className="w-4 h-4" /> Open
           </a>
           <a href={resumeUrl} download="Radhika-Changia-Resume.pdf" className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold shadow-sm transition-colors">
             <Download className="w-4 h-4" /> Download
           </a>
-        </div> */}
+        </div>
       </div>
       <div className={`rounded-3xl border ${cardBg} shadow-sm overflow-hidden`}>
         <div className="px-5 py-3 border-b border-slate-100 dark:border-slate-800/60 flex items-center gap-2">
