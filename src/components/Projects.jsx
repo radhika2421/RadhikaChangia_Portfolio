@@ -43,7 +43,7 @@ export default function Projects({theme }) {
     name: "Rethread - discover affordable fashion while promoting sustainable living..",
     description: "A full-stack thrift marketplace built with the MERN stack, enabling users to buy and sell pre-owned items through secure authentication, product listings, and a seamless shopping experience. A WORK IN PROGRESS",
     image: reThreadIcon,
-    githubLink: "#d",
+    githubLink: "https://github.com/radhika2421/ReThread",
     liveLink: "#"
   }]
 
@@ -104,7 +104,7 @@ export default function Projects({theme }) {
 
               {/* Links Footer */}
               <div className="flex items-center gap-4 pt-4 mt-4  text-xs font-semibold">
-                {proj.githubLink && proj.id!=="proj-3" && proj.githubLink !== '#' && (
+                {proj.githubLink && proj.githubLink !== '#' && (
                   <a
                     href={proj.githubLink}
                     target="_blank"
