@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import {Menu, ChevronLeft, ChevronRight, Sun, Moon,
-  LayoutDashboard, GraduationCap, Briefcase, Wrench,
+  LayoutDashboard, GraduationCap, Briefcase, Wrench, Award, Trophy,
   Mail, User, CheckCircle2, Sparkles, Lightbulb, File} from 'lucide-react';
 
 import Dashboard from './components/Dashboard.jsx';
 import Education from './components/Education.jsx';
 import Projects from './components/Projects.jsx';
 import Skills from './components/Skills.jsx';
+import Certifications from './components/Certifications.jsx';
+import Achievements from './components/Achievements.jsx';
 import Resume from './components/Resume.jsx';
 import Feedback from './components/Feedback.jsx';
 
@@ -16,6 +18,7 @@ const profile = {
   role: "Software Developer",
   location: "New Delhi, India",
   email: "radhika2changia@gmail.com",
+  coding: "codolio.com/profile/radhika2421"
 };
 
 
@@ -41,6 +44,8 @@ export default function App() {
     { id: 'education', label: 'Education', icon: GraduationCap },
     { id: 'projects', label: 'Projects', icon: Briefcase },
     { id: 'skills', label: 'Skills', icon: Wrench },
+    { id: 'certifications', label: 'Certifications', icon: Award },
+    { id: 'achievements', label: 'Achievements', icon: Trophy },
     { id: 'resume', label: 'Resume', icon: File },
     { id: 'feedback', label: 'Feedback', icon: Mail },
   ];
@@ -163,6 +168,20 @@ export default function App() {
             {activeTab === 'skills' && (
               <Skills
                 key="skills"
+                theme={theme}
+              />
+            )}
+
+            {activeTab === 'certifications' && (
+              <Certifications
+                key="certifications"
+                theme={theme}
+              />
+            )}
+
+            {activeTab === 'achievements' && (
+              <Achievements
+                key="achievements"
                 theme={theme}
               />
             )}

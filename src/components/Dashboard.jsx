@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
-import { Sparkles, Briefcase, MapPin, Mail, Award, Linkedin, Github } from 'lucide-react';
+import { Sparkles, Briefcase, MapPin, Mail, Award, Linkedin, Github, Code } from 'lucide-react';
 
 export default function Dashboard({ profile,theme }) {
 
@@ -98,7 +98,7 @@ export default function Dashboard({ profile,theme }) {
             { label: 'Email Address', value: profile.email, href: `mailto:${profile.email}`, icon: Mail },
             { label: 'LinkedIn', value: 'linkedin.com/in/radhikachangia', href: 'https://www.linkedin.com/in/radhika-changia-6b8b21211/', icon: Linkedin },
             { label: 'GitHub Profile', value: 'github.com/radhikachangia', href: 'https://github.com/radhika2421', icon: Github },
-            { label: 'Location', value: profile.location, icon: MapPin },
+            { label: 'Coding Profile', value: profile.coding, href: "https://codolio.com/profile/radhika2421", icon: Code },
           ].map((item) => {
             const Icon = item.icon;
             const details = (
