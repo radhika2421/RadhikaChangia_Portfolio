@@ -1,16 +1,93 @@
-# React + Vite
+# 🌐 Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website!
+This site showcases my skills, projects, certifications, and experiences as a software developer. It serves as a central place to explore my work, technical expertise, and professional journey.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- About Me section
+- Eductaion
+- Projects with descriptions and links
+- Technical Skills
+- Certifications and Achievements with certificates
+- Downloadable resume
+- Contact section with social links
+- Dark/Light Theme Toggle
+- Feedback form
+- Fully Responsive Design
+- Smooth UI and Modern Animations
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- HTML5
+- CSS3
+- JavaScript
+- React.js
+- Tailwind CSS
+- Git & GitHub
 
-## Expanding the ESLint configuration
+## 📂 Sections
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Home
+- Education
+- Projects
+- Skills
+- Certifications
+- Achievements
+- Resume
+- Feedback
+
+## 🔗 Live Demo
+
+**Portfolio:** https://radhika-changia-portfolio.vercel.app/
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/radhika2421/RadhikaChangia_Portfolio.git
+```
+
+Navigate to the project directory
+
+```bash
+cd portfolio
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+## 📁 Project Structure
+
+```
+portfolio/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── package.json
+└── README.md
+```
+
+## 🎯 Future Improvements
+
+- Blog Section
+- Project Filtering
+- Contact Form Backend (Currently using Formspree)
+- Visitor Analytics
+
+⭐ If you like this project, consider giving it a star!
