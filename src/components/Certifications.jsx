@@ -13,7 +13,7 @@ const certifications = [
   {
     title: 'DSA in Java',
     issuer: 'Coding Ninjas',
-    description: 'Developed a solid foundation in Data Structures and Algorithms using Java, with hands-on experience in recursion, sorting, searching, trees, graphs, dynamic programming, and time complexity analysis through Coding Ninjas.',
+    description: 'Developed a solid foundation in Data Structures and Algorithms using Java, with hands-on experience in recursion, sorting, searching, trees, graphs, dynamic programming, and time complexity analysis.',
     credential: 'https://drive.google.com/file/d/10DqwY8wylmflMW5PlcUdkpNqYE0psBgQ/view?usp=sharing',
     accent: 'indigo',
   },
