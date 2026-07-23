@@ -6,7 +6,7 @@ const achievements = [
   {
     title: 'Vibe2Ship Coding Hackathon',
     subtitle: 'Coding Ninjas x Google Developers',
-    description: 'Participated and got an opportunity for enhancing skills in AI-assisted development, modern web technologies, Git/GitHub, and building end-to-end projects using industry best practices.',
+    description: 'Participated and got an opportunity for enhancing skills in AI-assisted development, modern web technologies, Git/GitHub and building end-to-end projects using industry best practices.',
     linkLabel: 'Certificate',
     link: 'https://drive.google.com/file/d/1qpS_n5xFTPL4wHroEPDf37Hu_qkln3v2/view?usp=sharing',
     type: 'hackathon',

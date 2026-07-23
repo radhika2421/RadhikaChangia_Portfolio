@@ -25,7 +25,7 @@ export default function Projects({theme }) {
   {
     id: "proj-1",
     name: "MyTaskMate - AI Companion for Smarter Productivity.",
-    description: "MyTaskMate, an AI-powered productivity web application that leverages Gemini AI for intelligent task planning, priority-based scheduling, dynamic rescheduling, and personalized productivity analytics, integrated with Google Calendar and secure authentication",
+    description: "MyTaskMate, an AI-powered productivity web application that leverages Gemini AI for intelligent task planning, priority-based scheduling, dynamic rescheduling and personalized productivity analytics, integrated with Google Calendar and secure authentication",
     image: taskMateIcon,
     githubLink: "https://github.com/radhika2421/MyTaskMate",
     liveLink: "https://mytaskmate.onrender.com/login"
@@ -33,7 +33,7 @@ export default function Projects({theme }) {
   {
     id: "proj-2",
     name: "MemoStack - Smart, organized space for your memos to be stacked.",
-    description: "A full-stack MERN note-taking application featuring secure CRUD operations, responsive design, and efficient MongoDB data management, deployed on Render for seamless access.",
+    description: "A full-stack MERN note-taking application featuring secure CRUD operations, responsive design and efficient MongoDB data management, deployed on Render for seamless access.",
     image: memoStackIcon,
     githubLink: "https://github.com/radhika2421/MemoStack",
     liveLink: "https://mymemostack.onrender.com/"
@@ -41,7 +41,7 @@ export default function Projects({theme }) {
   {
     id: "proj-3",
     name: "Rethread - discover affordable fashion while promoting sustainable living..",
-    description: "A full-stack thrift marketplace built with the MERN stack, enabling users to buy and sell pre-owned items through secure authentication, product listings, and a seamless shopping experience. A WORK IN PROGRESS",
+    description: "A full-stack thrift marketplace built with the MERN stack, enabling users to buy and sell pre-owned items through secure authentication, product listings and a seamless shopping experience. A WORK IN PROGRESS",
     image: reThreadIcon,
     githubLink: "https://github.com/radhika2421/ReThread",
     liveLink: "#"
@@ -132,7 +132,7 @@ export default function Projects({theme }) {
         })}
       </div>
 
-      <p className={`text-xs ${textSecondary}`}>The projects are deployed on render, so it might take a couple minutes for it to load. <br/> Sorry for the inconvenience :)</p>
+      <p className={`text-xs ${textSecondary}`}>The projects are deployed on render, so it might take a couple minutes for it to load.</p>
     </motion.div>
   );
 }
