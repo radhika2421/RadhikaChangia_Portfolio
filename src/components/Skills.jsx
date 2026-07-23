@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
-import { Code, Database, Hammer, Sparkles, Cpu, Boxes, Coffee, Braces, Waves, FileCode2, Server, Waypoints, Atom, Network, LayoutTemplate, NotebookPen, Cylinder, Table2, Component, HardDrive, Binary, Workflow, Radio, FileType2, Palette, GitBranch } from 'lucide-react';
+import { Code, Database, Hammer, Sparkles, Cpu, Boxes, Coffee, Braces, Waves, FileCode2, Server, Waypoints, Atom, Network, LayoutTemplate, NotebookPen, Cylinder, Table2, Component, HardDrive, Binary, Workflow, Radio, FileType2, Palette, GitBranch , MonitorCog} from 'lucide-react';
 
 const SKILL_ICONS = {
   Java: Coffee,
@@ -20,6 +20,7 @@ const SKILL_ICONS = {
   'Operating Systems': HardDrive,
   'Data Structures and Algorithms': Binary,
   'Computer Networks': Radio,
+  'System Design': MonitorCog,
   HTML: FileCode2,
   CSS: Palette,
   EJS: FileType2,
@@ -40,7 +41,7 @@ export default function Skills({theme }) {
     languages: ['Java', 'JavaScript', 'Python'],
     databases: ['MongoDB', 'MySQL'],
     frameworks: ['Node.js', 'Express.js', 'React.js', 'Mongoose', 'TailwindCSS', 'Bootstrap', 'Jupyter'],
-    fundamentals: ['Object-Oriented Programming', 'Database Management Systems', 'Operating Systems', 'Data Structures and Algorithms', 'Computer Networks'],
+    fundamentals: ['Object-Oriented Programming', 'Database Management Systems', 'Operating Systems', 'System Design' , 'Computer Networks', 'Data Structures and Algorithms'],
     tools: ['HTML', 'CSS', 'EJS', 'Git', 'Figma']
   };
   
